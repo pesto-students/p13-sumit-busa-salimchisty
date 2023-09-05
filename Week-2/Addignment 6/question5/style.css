@@ -1,0 +1,38 @@
+.container{
+    width: 600px;
+    height: 280px;
+    border: 2px solid blue;
+    padding: 5px;
+    background-color: #F0F0F0;
+}
+h2{
+    color: blue;
+}
+
+.yellow{
+    width: 200px;
+    padding: 10px;
+    float: left;
+    margin-right: 10px;
+    background-color: yellow;
+    
+}
+
+.orange{
+    background-color: orange;
+    position: absolute;
+    left: 110px;
+    top: 200px;
+    width: 200px;
+    padding: 10px;
+}
+.redOrange{
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(255, 80, 0);
+    color: white;
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+
+}

@@ -1,0 +1,25 @@
+label{
+    display: inline-block;
+    width: 120px;
+}
+input, textarea{
+    width: 300px;
+    padding: 10px;
+    
+}
+
+input[type=text]{
+    background-color: rgb(219, 241, 248);
+}
+input[type=date]{
+    background-color: rgb(219, 241, 248);
+}
+input[type=number]{
+    background-color: rgb(219, 241, 248);
+}
+
+.required::after{
+    content: "*";
+    color: red;
+
+}

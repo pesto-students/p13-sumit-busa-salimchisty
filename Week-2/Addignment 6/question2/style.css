@@ -1,0 +1,95 @@
+header{
+    width: 100%;
+    padding: 5px;
+    border-bottom: 2px solid gray;
+    background-color: rgb(196, 196, 96);
+    display: flex;
+    justify-content: space-between;
+}
+.eat{
+    color: maroon;
+}
+
+
+.container{
+    display: flex;
+
+}
+
+.content{
+    width: 65%;
+    color: purple;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    border-bottom: 2px solid lightgray;
+    /* display: flex;
+    align-items: baseline; */
+}
+
+span{
+    font-size: 20px;
+    color: skyblue;
+    margin-left: 10px;
+}
+.main-content{
+    width: 300px;
+    position: absolute;
+    top: 34px;
+    left: 990px;
+    
+} 
+
+.mainBox{
+    display: flex;
+    justify-content:flex-start;
+}
+
+.cookies{
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.box{
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 150px;
+    height: 300px;
+    border: 1px solid gray;
+    background-color: rgb(196, 196, 96);;
+    border-radius: 5px;
+    /* float: right; */
+    display: grid;
+    grid-template-columns: 400px 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.item1{color: maroon;}
+.item2{color: maroon;}
+.item3{color: maroon;}
+.item4{color: maroon;}
+.item5{color: maroon;}
+.item6{color: maroon;}
+.item7{color: maroon;}
+.item8{color: maroon;}
+
+
+.ingredients{
+    width: 370px;
+    margin-left: 5px;
+    float: left;
+}
+
+.direction{
+    width: 450px;
+    float: left;
+    margin-left: 100px;
+
+}
+
+
+
