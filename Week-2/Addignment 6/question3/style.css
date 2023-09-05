@@ -1,0 +1,76 @@
+.table{
+
+    background-image: linear-gradient( forestgreen , darkgreen);
+    position: relative;
+    padding:0;
+    margin:0;
+    width: 400px;
+    height: 300px;
+    
+    }
+
+    .cardTop{
+        width: 100px;
+        height: 150px;
+        background-color: white;
+        position: absolute;
+        left: 150px;
+        top: 100px;
+        z-index: 20;
+    }
+    .topLeft{
+        width: 24px;
+        height: 20px;
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        font-size: xx-large;
+
+    }
+    .center{
+        font-size: 80px;
+        color: black;
+        padding: 30px 20px 30px 20px;
+        text-align: center;
+    }
+
+    .bottomRight{
+        width: 24px;
+        height: 30px;
+        position: absolute;
+        bottom: 2px;
+        right: 2px;
+        font-size: xx-large;
+    }
+
+    .card{
+        border-radius: 5px;
+        box-shadow: 3px 3px 0px 0px black;
+        transition: 0.3s;
+    }
+
+    .cardBottom{
+        width: 100px;
+        height: 150px;
+        background-color: white;
+        position: absolute;
+        left: 240px;
+        top: 120px;
+        z-index: 10;
+    }
+
+    page {
+        position:relative;
+        background: white;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 0.5cm;
+        box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+        
+        }
+
+        page[size="A3"] {
+            width: 29.7cm;
+            height: 42cm;
+            
+            }

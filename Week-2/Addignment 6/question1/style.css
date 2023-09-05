@@ -1,0 +1,28 @@
+.question{
+    width: 550px;
+    font-size: 50px;
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    padding: 18px;
+    animation-name: moveFraction;
+    animation-duration: 2s;
+
+
+}
+
+@keyframes moveFraction{
+    0%{color: yellow; translate: -355px 60px;}
+    50%{translate: 0px 60px;}
+    100%{color: red; translate: 0px 0px; }
+    
+}
+
+.answer{
+    color: red;
+    animation-name: moveFraction;
+    animation: 1s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+}
